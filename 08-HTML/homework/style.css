@@ -1,19 +1,27 @@
+body {
+    background: url(https://fondosmil.com/fondo/12790.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 h1 {
     color: bisque;
 }
 img {
     width: 400px;
 }
-.thirdDiv {
+
+#thirdDiv {
+    padding: 50px;
+    border: 2px solid gold;
     height: 600px;
     width: 500px;
     background-color: darkcyan;
 }
+
 #spanId {
     font-size: 18px;
     margin: 50px;
-}
-#thirdDiv {
-    padding: 50px;
-    border: 2px solid gold;
 }
